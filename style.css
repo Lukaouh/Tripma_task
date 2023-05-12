@@ -1,0 +1,544 @@
+.container{
+    width: 1440px;
+    height: 1280px;
+    margin: 0 auto;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 36px;
+    
+
+}
+
+.nav-link{
+text-decoration: none;
+list-style: none;
+margin-top: 18px;
+background: #FFFFFF;
+ 
+}
+
+.nav-link a{ 
+    
+width: 49px;
+height: 22px;
+font-family: 'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #7C8DB0;
+cursor: pointer;
+}
+
+
+.justify-end{
+    justify-content: end;
+
+}
+
+.Tripma_logo{
+position: absolute;
+width: 107px;
+height: 30px;
+left: 12px;
+top: 12px;
+padding: 8px 24px;
+color: #605DEC;
+}
+
+.sign_up{
+
+flex-direction: row;
+align-items: center;
+padding: 14px 20px;
+gap: 8px;
+margin-right: 36px;
+    
+width: 95px;
+height: 48px;
+background: #605DEC;
+border-radius: 4px;
+border: none;
+cursor: pointer;
+
+font-family: 'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #FAFAFA;
+
+}
+#advanture{
+    width: 100%;
+}
+.welcome_back{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 0px 160px;
+gap: 48px;
+
+position: absolute;
+height: 700px;
+left: 0px;
+right: 0px;
+top: 96px;
+}
+
+.cards{
+display: flex;
+margin-left: 20px;
+gap: 40px;
+margin-top: -1660px;
+   
+}
+
+
+.flight_deal{
+position: absolute;
+margin-left: 40px;
+width: 700px;
+height: 33px;
+font-family: 'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+color: #6E7491;
+margin-top: -60px;
+
+
+}
+
+.c2{
+    color: #605DEC;
+}
+
+.cards img{
+    width: 410px;
+    height: 398px;
+    border-radius: 10px 10px 0 0 ;
+}
+.cards p{
+width: 290px;
+height: 25px;
+font-family: 'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+margin-top: 5px;
+font-size: 18px;
+line-height: 25px;
+color: #6E7491;
+}
+
+.cards h5{
+width: 362px;
+height: 22px;
+font-family: 'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #7C8DB0;
+margin-top: -12px;
+}
+
+.cards h6{
+position: absolute;
+margin-left: 330px;
+margin-top: 4px;
+font-family: 'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+
+color: #6E7491;
+
+}
+
+.shanghai_box{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px 24px;
+gap: 4px;
+width: 362px;
+height: 83px;
+background:#FFFFFF;
+border-radius: 0 0 10px 10px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.sydney_box{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px 24px;
+gap: 4px;
+width: 362px;
+height: 83px;
+background:#FFFFFF;
+border-radius: 0 0 10px 10px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+.kyoto_box{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px 24px;
+gap: 4px;
+width: 362px;
+height: 83px;
+background:#FFFFFF;
+border-radius: 0 0 10px 10px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+.kenya img{
+margin-left: 60px;
+margin-top: 40px;
+border-radius: 10px 10px 0 0;
+}
+
+.kenya_box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 24px;
+    gap: 4px;
+    width: 1268px;
+    height: 83px;
+    margin-left: 58px;
+    background:#FFFFFF;
+    border-radius: 0 0 10px 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+
+}
+
+.kenya p{
+font-family: 'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+color: #6E7491;
+margin-top: 5px;
+    
+}
+
+.kenya h5{
+font-family: 'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #7C8DB0;
+margin-top: -12px;
+}
+
+.kenya h6{
+position: absolute;
+margin-left: 1214px;
+margin-top: 4px;
+font-family: 'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+color: #6E7491;
+
+
+}
+
+
+#explore{
+width: 100%;
+}
+
+
+.explore_title{
+position: absolute;
+font-family: 'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+margin-top: 1556px;
+color: rgba(92, 214, 192, 1);
+margin-left: -638px;
+}
+
+.cards_2{
+display: flex;
+margin-left: 18px;
+gap: 40px;
+margin-top: -44px;
+
+
+}
+
+.cards_2 img{
+    width: 410px;
+    height: 398px;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.cards_2 p{
+width: 400px;
+height: 25px;
+font-family: 'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+margin-top: 5px;
+font-size: 18px;
+line-height: 25px;
+color: #6E7491;
+}
+    
+.cards_2 h5{
+width: 362px;
+height: 22px;
+font-family: 'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #7C8DB0;
+margin-top: -12px;
+}
+
+.maldives_box{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px 24px;
+gap: 4px;
+width: 362px;
+height: 127px;
+background:#FFFFFF;
+border-radius: 0 0 10px 10px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    
+}
+
+
+.flight_deal_2{
+position: absolute;
+margin-left: 40px;
+margin-top: -54px;
+width: 700px;
+height: 33px;
+font-family: 'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+color: #6E7491;
+
+}
+
+.explore_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.btn{
+   
+margin-top: 92px;
+width: 195px;
+height: 48px;
+background: #605DEC;
+border-radius: 4px;
+border: none;
+
+font-family: 'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #FAFAFA;
+cursor: pointer;
+}
+
+
+#feedback{
+    width: 100%;
+}
+.feedback_title{
+display: flex;
+justify-content: center;
+}
+.flight_deal_3{
+font-family: 'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+color: #6E7491;
+margin-top: -496px;
+}
+.feedback_boxes{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    gap: 100px;
+    margin-top: -420px;
+    margin-left: -36px;
+}
+
+.chen{
+    width: 330px;
+    height: 220px;
+
+}
+.chen img{
+width: 48px;
+height: 48px;
+}
+.chen_name{
+    position: absolute;
+    margin-left: 64px;
+    margin-top: -48px;
+font-family: 'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 25px;
+color: #6E7491;
+
+}
+
+.chen_coutry{
+ margin-left: 64px;
+margin-top: -26px;
+font-family: 'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 25px;
+color: #6E7491;
+
+}
+.star{
+    margin-left: 66px;
+    margin-top: -26px;
+}
+.star img{
+    width: 18px;
+    height: 18px;
+   
+}
+.feedback_title_1{
+width: 330px;
+height: 150px;
+font-family: 'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+color: #27273F;
+margin-top: 14px;
+margin-left: 66px;
+}
+
+
+.c3{
+    color: #605DEC;
+    cursor: pointer;
+}
+
+.footer_box{
+position: absolute;
+margin-top: -1340px;
+width: 1440px;
+height: 448px;
+background: #FAFAFA;
+}
+
+.footer_tripma img{
+    position: absolute;
+    margin-top: 88px;
+    margin-left:194px;
+}
+.footer_navbar ul{
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.footer_navbar{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 82px;
+}
+
+.footer_navbar h4{
+font-family: 'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 25px;
+color: #6E7491;
+}
+
+.footer_navbar li{
+
+font-family: 'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+color: #7C8DB0;
+
+
+}
+
+.get_app_img {
+   display: grid;
+   gap: 10px;
+   margin-left: 36px;
+   margin-top: 10px;
+   cursor: pointer;
+
+}
+
+.footer_line{
+
+position: absolute;
+width: 1440px;
+height: 94px;
+background: #FAFAFA;
+margin-top: -891px;
+
+}
+
+.footer_line_img{
+    display: flex;
+    margin-left: 130px;
+    margin-top: 40px;
+    gap: 16px;
+    cursor: pointer;
+   
+}
+
+.copyright{
+ margin-left: 1092px;
+margin-top: -20px;
+font-family: 'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+color: #7C8DB0;
+}
+
