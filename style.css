@@ -1,12 +1,14 @@
 .container{
     width: 1440px;
-    height: 1280px;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+   
 }
 
 .navbar ul{
     display: flex;
     gap: 36px;
+    margin-top: -40px;
     
 
 }
@@ -20,7 +22,7 @@ background: #FFFFFF;
 }
 
 .nav-link a{ 
-    
+
 width: 49px;
 height: 22px;
 font-family: 'Nunito Sans', sans-serif;
@@ -39,11 +41,10 @@ cursor: pointer;
 }
 
 .Tripma_logo{
-position: absolute;
+
 width: 107px;
 height: 30px;
-left: 12px;
-top: 12px;
+
 padding: 8px 24px;
 color: #605DEC;
 }
@@ -69,38 +70,111 @@ font-weight: 400;
 font-size: 16px;
 line-height: 22px;
 color: #FAFAFA;
-
 }
-#advanture{
+
+#welcome{
     width: 100%;
 }
 .welcome_back{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 8px 0px 160px;
-gap: 48px;
-
-position: absolute;
-height: 700px;
-left: 0px;
-right: 0px;
-top: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px 160px;
+    gap: 48px;
+    
+    height: 700px;
+    left: 0px;
+    right: 0px;
+    
 }
 
+.welcome_text{
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-size: 56px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #605DEC;
+}
+.welcome_input{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 78%;
+    left: 16%;
+}
+.inputes input{
+   
+width: 220px;
+height: 32px;
+background: #FFFFFF;
+border-radius: 4px;
+
+border: 1px solid rgb(199, 193, 193);
+    
+}
+
+::placeholder{
+font-family: 'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+margin-left: 10px;
+line-height: 25px;
+display: flex;
+align-items: center;
+color: #7C8DB0;
+}
+.search{
+    
+flex-direction: row;
+align-items: center;
+width: 96px;
+height: 36px;
+background: #605DEC;
+border-radius: 4px;
+border: none;
+cursor: pointer;
+
+font-family: 'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #FAFAFA;
+
+}
+
+
+.welcome_text span{
+    display: block;
+    text-align: center;
+}
+    
+
+
+#advanture{
+    width: 100%;
+}
+
+.cards_title{
+    width: 327px;
+    height: 33px;
+}
 .cards{
 display: flex;
-margin-left: 20px;
 gap: 40px;
-margin-top: -1660px;
+margin-left: 64px;
    
 }
 
 
 .flight_deal{
-position: absolute;
-margin-left: 40px;
+margin: 0;
+padding: 0;
+
 width: 700px;
 height: 33px;
 font-family: 'Nunito Sans', sans-serif;
@@ -109,10 +183,10 @@ font-weight: 700;
 font-size: 24px;
 line-height: 33px;
 color: #6E7491;
-margin-top: -60px;
 
 
-}
+
+} 
 
 .c2{
     color: #605DEC;
@@ -122,6 +196,19 @@ margin-top: -60px;
     width: 410px;
     height: 398px;
     border-radius: 10px 10px 0 0 ;
+}
+.sydney{
+    margin-top: 50px;
+}
+
+.kyoto{
+    margin-top: 49px;
+
+}
+
+.shanghai img{
+    margin-top: 20px;
+    
 }
 .cards p{
 width: 290px;
@@ -133,6 +220,7 @@ margin-top: 5px;
 font-size: 18px;
 line-height: 25px;
 color: #6E7491;
+
 }
 
 .cards h5{
@@ -141,18 +229,20 @@ height: 22px;
 font-family: 'Nunito Sans', sans-serif;
 font-style: normal;
 font-weight: 400;
+margin-top: 0;
 font-size: 16px;
 line-height: 22px;
 color: #7C8DB0;
-margin-top: -12px;
+
 }
 
 .cards h6{
-position: absolute;
+
 margin-left: 330px;
-margin-top: 4px;
+margin-top: -100px;
 font-family: 'Nunito Sans', sans-serif;
 font-style: normal;
+
 font-weight: 600;
 font-size: 18px;
 line-height: 25px;
@@ -168,6 +258,7 @@ align-items: flex-start;
 padding: 10px 24px;
 gap: 4px;
 width: 362px;
+
 height: 83px;
 background:#FFFFFF;
 border-radius: 0 0 10px 10px;
@@ -177,11 +268,12 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px
 .sydney_box{
 display: flex;
 flex-direction: column;
-align-items: flex-start;
-padding: 10px 24px;
+
+
 gap: 4px;
-width: 362px;
-height: 83px;
+width: 410px;
+height: 104px;
+
 background:#FFFFFF;
 border-radius: 0 0 10px 10px;
 box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
@@ -240,14 +332,15 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 22px;
+margin-top: 0;
 color: #7C8DB0;
-margin-top: -12px;
+
 }
 
 .kenya h6{
-position: absolute;
+
 margin-left: 1214px;
-margin-top: 4px;
+margin-top: -98px;
 font-family: 'Nunito Sans', sans-serif;
 font-style: normal;
 font-weight: 600;
@@ -265,22 +358,23 @@ width: 100%;
 
 
 .explore_title{
-position: absolute;
+
 font-family: 'Nunito Sans', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
 line-height: 33px;
-margin-top: 1556px;
+
 color: rgba(92, 214, 192, 1);
 margin-left: -638px;
 }
 
 .cards_2{
 display: flex;
-margin-left: 18px;
+margin-left: 0;
+margin-left: 64px;
 gap: 40px;
-margin-top: -44px;
+
 
 
 }
@@ -289,7 +383,11 @@ margin-top: -44px;
     width: 410px;
     height: 398px;
     border-radius: 10px 10px 0 0 ;
+   
+    margin-top: 30px;
+ 
 }
+
 
 .cards_2 p{
 width: 400px;
@@ -308,11 +406,12 @@ width: 362px;
 height: 22px;
 font-family: 'Nunito Sans', sans-serif;
 font-style: normal;
+margin-top: 0;
 font-weight: 400;
 font-size: 16px;
 line-height: 22px;
 color: #7C8DB0;
-margin-top: -12px;
+
 }
 
 .maldives_box{
@@ -328,12 +427,17 @@ border-radius: 0 0 10px 10px;
 box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     
 }
+.morocco{
+    margin-top: 116px;
+}
+.mongolia{
+    margin-top: 116px;
 
-
+}
 .flight_deal_2{
-position: absolute;
-margin-left: 40px;
-margin-top: -54px;
+
+margin-left: px;
+
 width: 700px;
 height: 33px;
 font-family: 'Nunito Sans', sans-serif;
@@ -376,6 +480,7 @@ cursor: pointer;
 .feedback_title{
 display: flex;
 justify-content: center;
+margin-top: 64px;
 }
 .flight_deal_3{
 font-family: 'Nunito Sans', sans-serif;
@@ -384,14 +489,15 @@ font-weight: 700;
 font-size: 24px;
 line-height: 33px;
 color: #6E7491;
-margin-top: -496px;
+
 }
 .feedback_boxes{
     display: flex;
     justify-content: center;
     background-color: white;
     gap: 100px;
-    margin-top: -420px;
+    margin-top: 10px;
+   
     margin-left: -36px;
 }
 
@@ -405,7 +511,7 @@ width: 48px;
 height: 48px;
 }
 .chen_name{
-    position: absolute;
+    
     margin-left: 64px;
     margin-top: -48px;
 font-family: 'Nunito Sans', sans-serif;
@@ -419,7 +525,7 @@ color: #6E7491;
 
 .chen_coutry{
  margin-left: 64px;
-margin-top: -26px;
+
 font-family: 'Nunito Sans', sans-serif;
 font-style: normal;
 font-weight: 600;
@@ -430,7 +536,7 @@ color: #6E7491;
 }
 .star{
     margin-left: 66px;
-    margin-top: -26px;
+   
 }
 .star img{
     width: 18px;
@@ -457,15 +563,15 @@ margin-left: 66px;
 }
 
 .footer_box{
-position: absolute;
-margin-top: -1340px;
+
 width: 1440px;
 height: 448px;
 background: #FAFAFA;
+margin-top: 230px;
 }
 
 .footer_tripma img{
-    position: absolute;
+  
     margin-top: 88px;
     margin-left:194px;
 }
@@ -479,7 +585,7 @@ background: #FAFAFA;
     display: flex;
     justify-content: center;
     gap: 60px;
-    margin-top: 82px;
+    
 }
 
 .footer_navbar h4{
@@ -518,7 +624,7 @@ position: absolute;
 width: 1440px;
 height: 94px;
 background: #FAFAFA;
-margin-top: -891px;
+
 
 }
 
@@ -533,11 +639,12 @@ margin-top: -891px;
 
 .copyright{
  margin-left: 1092px;
-margin-top: -20px;
+
 font-family: 'Nunito Sans', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
+margin-top: 0;
 line-height: 25px;
 color: #7C8DB0;
 }
