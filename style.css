@@ -110,9 +110,24 @@ color: #FAFAFA;
 width: 220px;
 height: 32px;
 background: #FFFFFF;
-border-radius: 4px;
 
-border: 1px solid rgb(199, 193, 193);
+padding-left: 34px;
+border: 1px solid rgb(199, 193, 193);}
+.icon{
+    position: absolute;
+} 
+.icon_1{
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 4px;
+}
+
+.inputes{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+    
     
 }
 
@@ -126,6 +141,7 @@ line-height: 25px;
 display: flex;
 align-items: center;
 color: #7C8DB0;
+padding-left: 40px;
 }
 .search{
     
