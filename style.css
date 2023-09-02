@@ -176,13 +176,16 @@ color: #FAFAFA;
 }
 
 .cards_title{
+    
     width: 327px;
     height: 33px;
 }
 .cards{
 display: flex;
+justify-content: center;
+align-items: center;
 gap: 40px;
-margin-left: 64px;
+
    
 }
 
@@ -387,8 +390,9 @@ margin-left: -638px;
 
 .cards_2{
 display: flex;
+justify-content: center;
 margin-left: 0;
-margin-left: 64px;
+
 gap: 40px;
 
 
@@ -510,11 +514,11 @@ color: #6E7491;
 .feedback_boxes{
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: white;
     gap: 100px;
     margin-top: 10px;
    
-    margin-left: -36px;
 }
 
 .chen{
